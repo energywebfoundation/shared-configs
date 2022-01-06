@@ -1,2 +1,2 @@
-# prettier-config
-Repository for shared prettier config at EWF
+# shared-configs
+Repository for shared dev configs (e.g. prettier, eslint) at EWF
