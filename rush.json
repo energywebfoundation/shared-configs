@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.59.2",
+  "npmVersion": "8.1.1",
+  "nodeSupportedVersionRange": ">=12.13.0 <13.0.0 || >=14.15.0 <15.0.0",
+  "projects": [
+    {
+      "packageName": "@energyweb/eslint-config",
+      "projectFolder": "packages/eslint-config",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@energyweb/prettier-config",
+      "projectFolder": "packages/prettier-config",
+      "shouldPublish": true
+    }
+  ]
+}

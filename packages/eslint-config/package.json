@@ -1,0 +1,26 @@
+{
+  "name": "@energyweb/eslint-config",
+  "version": "0.0.0",
+  "description": "Shared eslint configuration for Energy Web projects.",
+  "main": "index.js",
+  "author": "Energy Web Foundation",
+  "contributors": [
+    {
+      "name": "Jakub Sydor",
+      "url": "https://github.com/Harasz"
+    }
+  ],
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/energywebfoundation/shared-configs",
+  "bugs": "https://github.com/energywebfoundation/shared-configs/issues",
+  "repository": "github:energywebfoundation/shared-configs",
+  "scripts": {
+    "build": ""
+  },
+  "peerDependencies": {
+    "eslint": ">= 8",
+    "eslint-config-prettier": ">= 8",
+    "@typescript-eslint/eslint-plugin": ">= 5",
+    "@typescript-eslint/parser": ">= 5"
+  }
+}
