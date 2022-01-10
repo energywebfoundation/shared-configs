@@ -18,6 +18,9 @@ Create an `Renovate` config file `.github/renovate.json` with fallowing content
 
 ```json
 {
-  "extends": ["github>energywebfoundation/shared-configs"]
+  "extends": ["github>energywebfoundation/shared-configs"],
+  "assignees": [],
+  "reviewers": []
 }
 ```
+Make sure to add users responsible for dependencies in a project to `assignees` and `reviewers` list.
