@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@energyweb/eslint-config",
+      "comment": "Update publish access",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@energyweb/eslint-config"
+}
