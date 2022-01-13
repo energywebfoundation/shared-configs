@@ -7,13 +7,13 @@ Shared `Prettier` configuration for Energy Web projects.
 Install package with npm
 
 ```bash
-  npm install @energyweb/prettier-config
+  npm install @energyweb/prettier-config --save-dev
 ```
 
 and also peer dependencies
 
 ```bash
-  npm install prettier
+  npm install prettier --save-dev
 ```
 
 ## Usage/Examples

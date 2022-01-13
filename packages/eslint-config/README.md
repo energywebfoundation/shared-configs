@@ -7,14 +7,14 @@ Shared `eslint` configuration for Energy Web projects.
 Install package with npm
 
 ```bash
-  npm install @energyweb/eslint-config
+  npm install @energyweb/eslint-config --save-dev
 ```
 
 and also peer dependencies
 
 ```bash
-  npm install eslint eslint-config-prettier
-  npm install @typescript-eslint/eslint-plugin @typescript-eslint/parser
+  npm install eslint eslint-config-prettier --save-dev
+  npm install @typescript-eslint/eslint-plugin @typescript-eslint/parser --save-dev
 ```
 
 ## Usage/Examples
