@@ -24,7 +24,7 @@
             "groupName": "Dependencies"
         },
         {
-            "matchPackagePatterns": ["^@angular/", "^ngx", "^@ngrx"],
+            "matchPackagePatterns": ["^@angular/", "^ngx", "^@ngrx", "^@ethersproject"],
             "enabled": false
         }
     ]
