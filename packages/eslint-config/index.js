@@ -11,4 +11,12 @@ module.exports = {
   },
   plugins: ["@typescript-eslint"],
   rules: {},
+  overrides: [
+    {
+      files: ["*.js"],
+      rules: {
+        "@typescript-eslint/no-var-requires": "off",
+      },
+    },
+  ],
 };
