@@ -7,15 +7,15 @@ Shared `semantic-release` configuration for Energy Web projects.
 Install package with npm
 
 ```bash
-  npm install @energyweb/semantic-release-config --save-dev
+npm install @energyweb/semantic-release-config --save-dev
 ```
 
 and also peer dependencies
 
 ```bash
-  npm install semantic-release @semantic-release/changelog --save-dev
-  npm install @semantic-release/git @semantic-release/github @semantic-release/npm --save-dev
-  npm install @semantic-release/commit-analyzer @semantic-release/release-notes-generator --save-dev
+npm install semantic-release @semantic-release/changelog conventional-changelog-conventionalcommits --save-dev
+npm install @semantic-release/git @semantic-release/github @semantic-release/npm --save-dev
+npm install @semantic-release/commit-analyzer @semantic-release/release-notes-generator --save-dev
 ```
 
 ## Usage/Examples

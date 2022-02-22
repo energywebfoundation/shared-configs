@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@energyweb/semantic-release-config",
+      "comment": "Add missing dependencies",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@energyweb/semantic-release-config"
+}

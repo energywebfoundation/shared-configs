@@ -19,6 +19,7 @@
         "@semantic-release/release-notes-generator": ">= 10",
         "@typescript-eslint/eslint-plugin": ">= 5",
         "@typescript-eslint/parser": ">= 5",
+        "conventional-changelog-conventionalcommits": ">= 4",
         "eslint": ">= 8",
         "eslint-config-prettier": ">= 8",
         "prettier": ">= 2",
@@ -1062,6 +1063,19 @@
       "integrity": "sha512-i/gipMxs7s8L/QeuavPF2hLnJgH6pEZAttySB6aiQLWcX3puWDL3ACVmvBhJGxnAy52Qc15ua26BufY6KpmrVA==",
       "dependencies": {
         "compare-func": "^2.0.0",
+        "q": "^1.5.1"
+      },
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/conventional-changelog-conventionalcommits": {
+      "version": "4.6.3",
+      "resolved": "https://registry.npmjs.org/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-4.6.3.tgz",
+      "integrity": "sha512-LTTQV4fwOM4oLPad317V/QNQ1FY4Hju5qeBIM1uTHbrnCE+Eg4CdRZ3gO2pUeR+tzWdp80M2j3qFFEDWVqOV4g==",
+      "dependencies": {
+        "compare-func": "^2.0.0",
+        "lodash": "^4.17.15",
         "q": "^1.5.1"
       },
       "engines": {
@@ -7152,6 +7166,16 @@
       "integrity": "sha512-i/gipMxs7s8L/QeuavPF2hLnJgH6pEZAttySB6aiQLWcX3puWDL3ACVmvBhJGxnAy52Qc15ua26BufY6KpmrVA==",
       "requires": {
         "compare-func": "^2.0.0",
+        "q": "^1.5.1"
+      }
+    },
+    "conventional-changelog-conventionalcommits": {
+      "version": "4.6.3",
+      "resolved": "https://registry.npmjs.org/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-4.6.3.tgz",
+      "integrity": "sha512-LTTQV4fwOM4oLPad317V/QNQ1FY4Hju5qeBIM1uTHbrnCE+Eg4CdRZ3gO2pUeR+tzWdp80M2j3qFFEDWVqOV4g==",
+      "requires": {
+        "compare-func": "^2.0.0",
+        "lodash": "^4.17.15",
         "q": "^1.5.1"
       }
     },
