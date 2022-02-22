@@ -13,6 +13,11 @@
       "packageName": "@energyweb/prettier-config",
       "projectFolder": "packages/prettier-config",
       "shouldPublish": true
+    }, 
+    {
+      "packageName": "@energyweb/semantic-release-config",
+      "projectFolder": "packages/semantic-release-config",
+      "shouldPublish": true
     }
   ]
 }

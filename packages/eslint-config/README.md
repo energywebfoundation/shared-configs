@@ -19,7 +19,7 @@ and also peer dependencies
 
 ## Usage/Examples
 
-Create an `eslint` config file `.eslintrc.js` with fallowing content
+Create an `eslint` config file `.eslintrc.js` with following content
 
 ```javascript
 module.exports = {
