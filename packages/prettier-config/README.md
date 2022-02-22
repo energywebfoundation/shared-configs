@@ -18,7 +18,7 @@ and also peer dependencies
 
 ## Usage/Examples
 
-Create an `Prettier` config file `.prettierrc.js` with fallowing content
+Create an `Prettier` config file `.prettierrc.js` with following content
 
 ```javascript
 module.exports = {
