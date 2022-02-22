@@ -11,6 +11,10 @@ Repository for shared dev configs at Energy Web Foundation.
 **Package name:** [@energyweb/prettier-config](packages/prettier-config/README.md) \
 **Package description:** Shared Prettier configuration for Energy Web projects.
 
+### `semantic-release` config
+**Package name:** [@energyweb/semantic-release-config](packages/semantic-release-config/README.md) \
+**Package description:** Shared semantic release configuration for Energy Web projects.
+
 ### `renovate` config
 **Description:** Shared Renovate bot configuration for Energy Web projects.\
 **Usage/Examples:** 
