@@ -1,6 +1,6 @@
 {
   "name": "@energyweb/semantic-release-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Shared semantic release configuration for Energy Web projects.",
   "main": "index.js",
   "author": "Energy Web Foundation",
@@ -27,6 +27,7 @@
     "@semantic-release/github": ">= 8",
     "@semantic-release/npm": ">= 9",
     "@semantic-release/release-notes-generator": ">= 10",
-    "@semantic-release/commit-analyzer": ">= 9"
+    "@semantic-release/commit-analyzer": ">= 9",
+    "conventional-changelog-conventionalcommits": ">= 4"
   }
 }
