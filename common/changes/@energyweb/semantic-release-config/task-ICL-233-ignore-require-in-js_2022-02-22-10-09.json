@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@energyweb/semantic-release-config",
+      "comment": "Add shared semantic release config",
+      "type": "major"
+    }
+  ],
+  "packageName": "@energyweb/semantic-release-config"
+}

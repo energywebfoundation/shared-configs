@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@energyweb/prettier-config",
+      "comment": "Fix README typo",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@energyweb/prettier-config"
+}

@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@energyweb/eslint-config",
+      "comment": "Fix README typo",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@energyweb/eslint-config"
+}
