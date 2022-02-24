@@ -3,6 +3,9 @@
   "version": "0.0.2",
   "description": "Shared semantic release configuration for Energy Web projects.",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "author": "Energy Web Foundation",
   "contributors": [
     {
@@ -18,7 +21,8 @@
     "access": "public"
   },
   "scripts": {
-    "build": ""
+    "build": "",
+    "test": "jest"
   },
   "peerDependencies": {
     "semantic-release": ">= 19",
@@ -29,5 +33,8 @@
     "@semantic-release/release-notes-generator": ">= 10",
     "@semantic-release/commit-analyzer": ">= 9",
     "conventional-changelog-conventionalcommits": ">= 4"
+  },
+  "devDependencies": {
+    "jest": "~27.5.1"
   }
 }
