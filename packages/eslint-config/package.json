@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Shared eslint configuration for Energy Web projects.",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "author": "Energy Web Foundation",
   "contributors": [
     {
@@ -18,12 +21,16 @@
     "access": "public"
   },
   "scripts": {
-    "build": ""
+    "build": "",
+    "test": "jest"
   },
   "peerDependencies": {
     "eslint": ">= 8",
     "eslint-config-prettier": ">= 8",
     "@typescript-eslint/eslint-plugin": ">= 5",
     "@typescript-eslint/parser": ">= 5"
+  },
+  "devDependencies": {
+    "jest": "~27.5.1"
   }
 }
