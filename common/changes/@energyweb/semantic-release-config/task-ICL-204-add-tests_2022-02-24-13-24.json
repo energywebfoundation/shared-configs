@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@energyweb/semantic-release-config",
+      "comment": "Add tests and include only index.js to build",
+      "type": "none"
+    }
+  ],
+  "packageName": "@energyweb/semantic-release-config"
+}
