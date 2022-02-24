@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "Shared Prettier configuration for Energy Web projects.",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "author": "Energy Web Foundation",
   "contributors": [
     {
@@ -18,9 +21,13 @@
     "access": "public"
   },
   "scripts": {
-    "build": ""
+    "build": "",
+    "test": "jest"
   },
   "peerDependencies": {
     "prettier": ">= 2"
+  },
+  "devDependencies": {
+    "jest": "~27.5.1"
   }
 }
