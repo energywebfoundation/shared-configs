@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@energyweb/prettier-config",
+      "comment": "",
+      "type": "none"
+    }
+  ],
+  "packageName": "@energyweb/prettier-config"
+}
