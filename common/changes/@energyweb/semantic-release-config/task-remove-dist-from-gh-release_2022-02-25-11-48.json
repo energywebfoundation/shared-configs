@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@energyweb/semantic-release-config",
+      "comment": "remove `dist` dir from GH release assets",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@energyweb/semantic-release-config"
+}
