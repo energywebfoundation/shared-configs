@@ -1,0 +1,17 @@
+{
+  "name": "@energyweb/semantic-release-config",
+  "entries": [
+    {
+      "version": "1.0.1",
+      "tag": "@energyweb/semantic-release-config_v1.0.1",
+      "date": "Fri, 25 Feb 2022 09:05:40 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "release fixed pacakge"
+          }
+        ]
+      }
+    }
+  ]
+}
