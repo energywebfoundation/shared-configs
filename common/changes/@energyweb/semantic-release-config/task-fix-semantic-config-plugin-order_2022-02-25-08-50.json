@@ -2,8 +2,8 @@
   "changes": [
     {
       "packageName": "@energyweb/semantic-release-config",
-      "comment": "Add shared semantic release config",
-      "type": "major"
+      "comment": "release fixed pacakge",
+      "type": "patch"
     }
   ],
   "packageName": "@energyweb/semantic-release-config"

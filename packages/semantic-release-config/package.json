@@ -1,6 +1,6 @@
 {
   "name": "@energyweb/semantic-release-config",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Shared semantic release configuration for Energy Web projects.",
   "main": "index.js",
   "files": [

@@ -2,8 +2,8 @@
   "changes": [
     {
       "packageName": "@energyweb/eslint-config",
-      "comment": "Fix README typo",
-      "type": "patch"
+      "comment": "",
+      "type": "none"
     }
   ],
   "packageName": "@energyweb/eslint-config"

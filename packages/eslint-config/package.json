@@ -1,6 +1,6 @@
 {
   "name": "@energyweb/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Shared eslint configuration for Energy Web projects.",
   "main": "index.js",
   "files": [

@@ -19,5 +19,9 @@
       "projectFolder": "packages/semantic-release-config",
       "shouldPublish": true
     }
-  ]
+  ],
+  "gitPolicy": {
+    "versionBumpCommitMessage": "chore(release): bump version [skip ci]",
+    "changeLogUpdateCommitMessage": "docs(changelog): update changelog [skip ci]"
+  }
 }
