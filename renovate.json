@@ -26,6 +26,10 @@
         {
             "matchPackagePatterns": ["^@angular/", "^ngx", "^@ngrx", "^@ethersproject"],
             "enabled": false
+        },
+        {
+            "matchPackageNames": ["node"],
+            "allowedVersions": "16.10.0"
         }
     ]
 }
