@@ -6,11 +6,9 @@ module.exports = {
         preset: "conventionalcommits",
         releaseRules: [
           { type: "docs", release: "patch" },
-          { type: "refactor", release: "patch" },
           { type: "style", release: "patch" },
-          { type: "test", release: "patch" },
-          { type: "ci", release: "patch" },
-          { type: "build", release: "patch" },
+          { type: "refactor", release: "patch" },
+          { type: "perf", release: "patch" },
         ],
         parserOpts: {
           noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"],
@@ -23,6 +21,19 @@ module.exports = {
         preset: "conventionalcommits",
         parserOpts: {
           noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"],
+        },
+        parserConfig: {
+          types: [
+            { type: "feat", section: "Features" },
+            { type: "fix", section: "Bug Fixes" },
+            { type: "docs", section: "Documentation" },
+            { type: "style", section: "Style changes" },
+            { type: "refactor", section: "Refactoring" },
+            { type: "perf", section: "Performance improvements" },
+            { type: "test", hidden: true },
+            { type: "chore", hidden: true },
+            { type: "ci", hidden: true },
+          ],
         },
       },
     ],
