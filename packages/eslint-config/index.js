@@ -9,8 +9,10 @@ module.exports = {
     project: "tsconfig.json",
     sourceType: "module",
   },
-  plugins: ["@typescript-eslint"],
-  rules: {},
+  plugins: ["@typescript-eslint", "no-only-tests"],
+  rules: {
+    "no-only-tests/no-only-tests": "error",
+  },
   overrides: [
     {
       files: ["*.js"],

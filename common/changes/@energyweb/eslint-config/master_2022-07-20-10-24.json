@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@energyweb/eslint-config",
+      "comment": "add `no-only-tests` plugin",
+      "type": "minor"
+    }
+  ],
+  "packageName": "@energyweb/eslint-config"
+}
