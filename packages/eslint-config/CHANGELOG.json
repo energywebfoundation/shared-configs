@@ -2,6 +2,18 @@
   "name": "@energyweb/eslint-config",
   "entries": [
     {
+      "version": "0.1.0",
+      "tag": "@energyweb/eslint-config_v0.1.0",
+      "date": "Wed, 20 Jul 2022 11:02:40 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "add `no-only-tests` plugin"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.0.2",
       "tag": "@energyweb/eslint-config_v0.0.2",
       "date": "Fri, 25 Feb 2022 09:05:40 GMT",
