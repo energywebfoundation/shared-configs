@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@energyweb/semantic-release-config",
+      "comment": "Add perf and remove ci, build and test from release rules",
+      "type": "minor"
+    }
+  ],
+  "packageName": "@energyweb/semantic-release-config"
+}
