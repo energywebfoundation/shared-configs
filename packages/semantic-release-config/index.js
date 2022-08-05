@@ -18,11 +18,13 @@ module.exports = {
     [
       "@semantic-release/release-notes-generator",
       {
+        // https://github.com/semantic-release/release-notes-generator#configuration
         preset: "conventionalcommits",
         parserOpts: {
           noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"],
         },
-        parserConfig: {
+        // available options are https://github.com/conventional-changelog/conventional-changelog-config-spec/blob/master/versions/2.2.0/README.md
+        presetConfig: {
           types: [
             { type: "feat", section: "Features" },
             { type: "fix", section: "Bug Fixes" },
