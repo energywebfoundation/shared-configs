@@ -1,6 +1,13 @@
 # Change Log - @energyweb/semantic-release-config
 
-This log was last generated on Fri, 05 Aug 2022 13:23:01 GMT and should not be manually modified.
+This log was last generated on Thu, 20 Jul 2023 13:09:32 GMT and should not be manually modified.
+
+## 1.1.2
+Thu, 20 Jul 2023 13:09:32 GMT
+
+### Patches
+
+- skip release notes from commit message
 
 ## 1.1.1
 Fri, 05 Aug 2022 13:23:01 GMT
